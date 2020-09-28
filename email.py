@@ -1,4 +1,5 @@
 #!/usr/bin/python
+
 import smtplib
 import time
 import os
@@ -6,7 +7,6 @@ import getpass
 import sys
 
 # Email Sender
-
 def main():
 	os.system('clear')
 
@@ -22,7 +22,7 @@ Choose a Mail Service:
 1) Gmail
 2) Yahoo
 3) Hotmail/Outlook
-''' + '--------------------------------------------------------------')
+''' '------------------------------------------------------------------')
 
 server = raw_input('Mail Server: ')
 user = raw_input('Your Email: ')
